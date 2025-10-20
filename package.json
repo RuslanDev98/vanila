@@ -1,0 +1,32 @@
+{
+  "name": "vanilla-js-project",
+  "version": "1.0.0",
+  "description": "Базовый проект на Vanilla JavaScript для разработки",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=index.html",
+    "dev": "live-server --port=3000 --open=index.html --watch=css,js",
+    "build": "echo 'Сборка не требуется для vanilla JS проекта'",
+    "serve": "python3 -m http.server 8000",
+    "serve-py": "python -m http.server 8000"
+  },
+  "keywords": [
+    "vanilla-js",
+    "javascript",
+    "frontend",
+    "web-development"
+  ],
+  "author": "Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/vanilla-js-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/vanilla-js-project/issues"
+  },
+  "homepage": "https://github.com/yourusername/vanilla-js-project#readme"
+}
